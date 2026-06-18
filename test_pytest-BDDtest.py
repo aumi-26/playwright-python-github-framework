@@ -1,9 +1,7 @@
 from html import parser
 
 import pytest
-from jinja2.nodes import And
 from pytest_bdd import given, when, parsers, scenarios, then
-
 from apiBase.api_baseFramework import api_base
 from conftest import one_user_credential
 from pageObjects import dashboard
