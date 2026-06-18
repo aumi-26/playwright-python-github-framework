@@ -26,3 +26,4 @@ def test_e2e_web_api(playwright: Playwright):
     expect(page.locator(".tagline")).to_have_text("Thank you for Shopping With Us")
     context.close()
     print("Thank you for shopping with us")
+    print("Running API tests for feature branch")
