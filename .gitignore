@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Reports
+report.html
+
+# IDE
+.idea/
+
+# Environment variables
+.env
