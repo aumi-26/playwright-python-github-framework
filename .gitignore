@@ -22,3 +22,4 @@ report.html
 
 # Environment variables
 .env
+gcm-diagnose.log

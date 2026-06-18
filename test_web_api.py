@@ -25,3 +25,4 @@ def test_e2e_web_api(playwright: Playwright):
     row.get_by_role("button", name="View").click()
     expect(page.locator(".tagline")).to_have_text("Thank you for Shopping With Us")
     context.close()
+    print("Thank you for shopping with us")
