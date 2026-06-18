@@ -9,7 +9,7 @@ from pageObjects.login import LoginClass
 from pageObjects import dashboard
 
 # JSON File opening
-with open("C:/Users/injam/PycharmProjects/PythonProject/playwright/data_json/credentials.json") as f:
+with open('data_json/credentials.json') as f:
     test_obj_dict = json.load(f)
     print(test_obj_dict)
     test_obj_list = test_obj_dict["user_details"]
